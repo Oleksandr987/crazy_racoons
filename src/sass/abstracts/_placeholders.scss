@@ -1,0 +1,120 @@
+%main-text {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 13.5px;
+    color: $secondary-color;
+}
+
+%main-text-bold {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 13.5px;
+    color: $secondary-color;
+}
+
+//оранжевый текст
+%except-text {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 13.5px;
+    color: $btn-main-color;
+}
+
+// для h1
+%page-headline-text {
+    font-family: $main-font;
+    font-weight: 800;
+    font-size: 30px;
+    color: $main-color;
+    text-transform: uppercase;
+}
+
+// для h2 по всей странице, для первого необходимо вручную прописать 20,5px размер 
+%headline-text {
+    font-family: $main-font;
+    font-weight: 800;
+    font-size: 18px;
+    color: $secondary-color;
+    text-transform: uppercase;
+}
+
+%headline-reverse-text {
+    font-family: $main-font;
+    font-weight: 800;
+    font-size: 18px;
+    color: $main-color;
+    text-transform: uppercase;
+    background-color: $secondary-color;
+}
+
+// текст в верхнем регистре
+%slogan-text {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 13.5px;
+    color: $secondary-color;
+    text-transform: uppercase;
+}
+
+%slogan-reverse-text {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 13.5px;
+    color: $main-color;
+    text-transform: uppercase;
+    background-color: $secondary-color;
+}
+
+%slogan-for-slider-text {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 13.5px;
+    color: $main-color;
+    text-transform: uppercase;
+}
+
+%secondary-text {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 13.5px;
+    color: $secondary-color;
+}
+
+%secondary-reverse-text {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 13.5px;
+    color: $main-color;
+    background-color: $secondary-color;
+}
+
+%highlited-text {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 13.5px;
+    color: $secondary-color;
+    background-color: $text-bg-color;
+}
+
+%numbers-of-list {
+    font-family: $main-font;
+    font-weight: 700;
+    font-size: 13.5px;
+    color: $main-color;
+    background-color: $btn-main-color;
+}
+
+// и куда же без кнопочек (: обратите внимание, что последние три кнопки в макете меньше
+%button-style {
+    display: block;
+    text-align: center;
+    font-family: $main-font;
+    font-weight: 800;
+    font-size: 11px;
+    color: $main-color;
+    text-transform: uppercase;
+    background-color: $btn-main-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: $btn-box-shadow;
+}

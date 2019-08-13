@@ -1,0 +1,10 @@
+.form__line {
+  border-width: 0.3px solid $form-main-color;
+  width: 241px;
+  height: 1px;
+}
+
+.form__border {
+  background-color: $main-color;
+  box-shadow: $form-box-shadow;
+}

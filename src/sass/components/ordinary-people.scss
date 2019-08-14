@@ -1,0 +1,6 @@
+.ordinary-people {
+  @extend %except-text;
+}
+.ordinary-people__title {
+  @extend %headline-text;
+}

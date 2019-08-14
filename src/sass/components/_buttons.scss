@@ -1,30 +1,29 @@
 .baner__btn {
   background-color: $btn-main-color;
   box-shadow: $btn-box-shadow;
-}
 
-&:active {
-  background-color: $btn-active-color;
-  box-shadow: $btn-box-shadow-active;
-}
+  &:active {
+    background-color: $btn-active-color;
+    box-shadow: $btn-box-shadow-active;
+  }
+  &:hover {
+    background-color: $btn-hover-color;
+    box-shadow: $btn-box-shadow-hover;
+  }
 
-&:hover {
-  background-color: $btn-hover-color;
-  box-shadow: $btn-box-shadow-hover;
-}
+  .footer__btn {
+    border: 0.6px solid $footer-btn-border-color;
+    background-color: transparent;
+    box-shadow: none;
+  }
 
-.footer__btn {
-  border: 0.6px solid $footer-btn-border-color;
-  background-color: transparent;
-  box-shadow: none;
-}
+  &:active {
+    background-color: $footer-btn-active-color;
+    box-shadow: none;
+  }
 
-&:active {
-  background-color: $footer-btn-active-color;
-  box-shadow: none;
-}
-
-&:hover {
-  background-color: $btn-hover-color;
-  box-shadow: none;
+  &:hover {
+    background-color: $btn-hover-color;
+    box-shadow: none;
+  }
 }

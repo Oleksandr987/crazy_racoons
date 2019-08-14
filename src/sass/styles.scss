@@ -2,4 +2,21 @@
    Import partials below
 */
 @import './base/normalize';
+@import './base/fonts';
+@import './abstracts/variables';
+@import './abstracts/functions';
+@import './abstracts/placeholders';
+@import './components/form';
 @import './components/containers';
+@import './components/form';
+@import './components/logo';
+@import './components/main-menu';
+@import './components/sections-line';
+@import './components/sections-lines';
+@import './layout/forms';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/navigation';
+@import './layout/sections';
+@import './components/buttons';
+@import './components/ordinary-people.scss';

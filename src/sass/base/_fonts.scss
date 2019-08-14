@@ -1,47 +1,49 @@
 @font-face {
   font-family: 'Heebo';
-  src: url('../../fonts/Heebo/Heebo-thin/Heebo-thin.woff') format('woff'),
-    url('../../fonts/Heebo/Heebo-thin/Heebo-thin.woff2') format('woff2');
+  src: url('../fonts/Heebo/Heebo-thin/Heebo-thin.woff') format('woff'),
+    url('../fonts/Heebo/Heebo-thin/Heebo-thin.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Heebo';
-  src: url('../../fonts/Heebo/Heebo-light/Heebo-light.woff') format('woff'),
-    url('../../fonts/Heebo/Heebo-light/Heebo-light.woff2') format('woff2');
+  src: url('../fonts/Heebo/Heebo-light/Heebo-light.woff') format('woff'),
+    url('../fonts/Heebo/Heebo-light/Heebo-light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Heebo';
-  src: url('../../fonts/Heebo/Heebo-regular/Heebo-regular.woff') format('woff'),
-    url('../../fonts/Heebo/Heebo-regular/Heebo-regular.woff2') format('woff2');
+  src: url('../fonts/Heebo/Heebo-regular/Heebo-regular.woff') format('woff'),
+    url('../fonts/Heebo/Heebo-regular/Heebo-regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Heebo';
-  src: url('../../fonts/Heebo/Heebo-medium/Heebo-medium.woff') format('woff'),
-    url('../../fonts/Heebo/Heebo-medium/Heebo-medium.woff2') format('woff2');
+  src: url('../fonts/Heebo/Heebo-medium/Heebo-medium.woff') format('woff'),
+    url('../fonts/Heebo/Heebo-medium/Heebo-medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Heebo';
-  src: url('../../fonts/Heebo/Heebo-bold/Heebo-bold.woff') format('woff'),
-    url('../../fonts/Heebo/Heebo-medium/Heebo-medium.woff2') format('woff2');
+  src: url('../fonts/Heebo/Heebo-bold/Heebo-bold.woff') format('woff'),
+    url('../fonts/Heebo/Heebo-medium/Heebo-medium.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Heebo';
-  src: url('../../fonts/Heebo/Heebo-extra-bold/Heebo-extra-bold.woff') format('woff'),
-    url('../../fonts/Heebo/Heebo-extra-bold/Heebo-extra-bold.woff2') format('woff2');
+  src: url('../fonts/Heebo/Heebo-extra-bold/Heebo-extra-bold.woff')
+      format('woff'),
+    url('../fonts/Heebo/Heebo-extra-bold/Heebo-extra-bold.woff2')
+      format('woff2');
   font-weight: 800;
   font-style: normal;
 }

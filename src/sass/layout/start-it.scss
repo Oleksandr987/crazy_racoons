@@ -1,0 +1,85 @@
+.start-it-text {
+    @extend%main-text;
+    color: $secondary-color;
+    text-align: left;
+    padding: 0 20px;
+    margin: 60px 0 25px;
+}
+
+.start-it-img img {
+    display: block;
+    padding: 0 20px;
+}
+
+.start-it__lead {
+    text-align: center;
+    position: relative;
+}
+.start-it__background-text {
+    position: absolute;
+    right: 63%;
+    top: 13%;
+    display: block;
+    font-size: 98px;
+    line-height: 78px;
+    color: $secondary-color;
+    font-family: $main-font;
+    font-weight: 800;
+    transform: rotate(90deg);
+    margin: 0;
+    text-align: left;
+    opacity: 0.1;
+}
+
+.start-it-subtitle {
+    @extend%slogan-text;
+    font-size: 15px;
+    line-height: 16.43px;
+    padding-top: 45px;
+    margin: 0 0 20px;
+}
+
+.start-it-subtitle::before {
+    content: '\2014';
+    margin-right: 10px;
+    font-size: 40px;
+    vertical-align: -40%;
+}
+
+.start-it__section-title {
+    @extend%headline-text;
+    font-size: 20.5px;
+    margin: 0 0 40px;
+    padding: 0 96px;
+    text-align: left;
+}
+
+.start-it__section-title span {
+    @extend%headline-reverse-text;
+}
+
+.start-it-subject {
+    @extend%slogan-text;
+    margin: 0;
+    text-align: left;
+    padding: 0 17px;
+}
+
+.start-it-list {
+    @extend%main-text;
+    list-style-type: square;
+    text-align: left;
+    padding: 0 55px;
+    margin: 0 0 50px;
+}
+
+.start-it-list__item span {
+    font-weight: 700;
+}
+
+.start-it-excerpt {
+    @extend%except-text;
+    padding: 0 99px;
+    text-align: center;
+    margin: 0 0 80px;
+}

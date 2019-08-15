@@ -1,0 +1,124 @@
+.wrapper-slyder {
+    background: $baner-bg-color url("../images/baner-shadow-tablet.png") center/cover no-repeat;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 25px;
+}
+
+.site-logo {
+    display: inline-block;
+    width: 66px;
+    height: 23px;
+    padding-left: 18px;
+}
+
+.site-menu {
+    display: inline-block;
+    width: 27px;
+    height: 16.5px;
+    fill: $main-color;
+    padding-right: 18px;
+}
+
+.slyder {
+    text-align: center;
+    padding: 0 0 60px;
+}
+
+.slyder__page-title {
+    @extend %page-headline-text;
+    padding: 0 117px;
+    margin: 0 0 45px;
+    line-height: 39px;
+}
+
+.slyder-top {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+.slyder-subtilte-top {
+    @extend%main-text-bold;
+    color: $main-color;
+    padding: 0 50px;
+    text-align: center;
+    margin: 0 0 35px;
+    letter-spacing: -.25px;
+    text-transform: uppercase;
+}
+
+.left::before {
+    position: absolute;
+    content: '\003C';
+    display: block;
+    color: $btn-hover-color;
+    font-weight: 700;
+    font-size: 13.5px;
+    left: 7%;
+}
+
+.right::after {
+    position: absolute;
+    content: '\338  \003E';
+    color: $btn-hover-color;
+    display: block;
+    font-weight: 700;
+    font-size: 13.5px;
+    right: 5%;
+    bottom: 3%;
+}
+
+.slyder-logo {
+    margin: 0 0 45px;
+    text-align: center;
+    font-family: $main-font;
+    line-height: 70px;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: $secondary-color;
+}
+
+.slyder-subtilte {
+    @extend%main-text-bold;
+    color: $main-color;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0 50px;
+    margin: 0 0 10px;
+}
+
+.slyder-text {
+    @extend%main-text;
+    color: $dop-text-color;
+    margin: 0 0 60px;
+    padding: 0 50px;
+    text-align: left;
+}
+
+.slyder-text::before {
+    content: '\338';
+    margin-right: 5px;
+}
+
+.slyder-text::after {
+  content: '\0024 \0024 \0024 \002e';
+  margin-left: 10px;
+}
+
+.slyder a {
+    padding: 20px 25px;
+    text-align: center;
+    font-family: $main-font;
+    font-weight: 800;
+    font-size: 11px;
+    color: $main-color;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: $btn-main-color;
+}
+
+

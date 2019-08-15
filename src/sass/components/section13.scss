@@ -1,0 +1,114 @@
+.leading-section {
+    &__slogan {
+        @extend %headline-text;
+    }
+    &__description {
+        @extend %secondary-text;
+        ::before {
+            %dash-small
+        }
+    }
+    &__secondary-headline {
+        @extend %slogan-text;
+    }
+    &__text {
+        @extend %main-text;
+    }
+
+}
+
+
+
+
+
+
+
+
+.opportunity-section {
+    padding-top: 15px;
+    &__image {
+        display: block;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    &__usually {
+        @extend %except-text;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+    &__slogan {
+        margin-bottom: 25px;
+        &--bgblack {
+            %headline-reverse-text;
+        }
+    }
+    &__offer {
+        @extend %secondary-text;
+        margin-bottom: 60px;
+        &::before {
+            @extend %dash-big;
+        }
+    }
+    &__secondary-headline {
+        @extend %slogan-text;
+        margin-bottom: 35px;
+    }
+    &__opportunities-list {
+        list-style: none;
+        &__item {
+            display: flex;
+            margin-bottom: 30px;
+            &__number--bg-orange {
+                @extend %numbers-of-list;
+            }
+            &__headline {
+                @extend %main-text-bold;
+                padding-bottom: 15px;
+            }
+            &__description {
+                @extend %main-text;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+.gain-section {
+    padding-top: 25px;
+    padding-bottom: 48px;
+    &__headline {
+        @extend %headline-text;
+        margin-bottom: 50px;
+    }
+    &__get-list {
+        list-style: none;
+        &__item {
+            display: flex;
+            margin-bottom: 30px;
+            &__number {
+                @extend %headline-text;
+                font-size: 16px;
+                &::after {
+                    @extend %list-style-square-small-blue;
+                }
+            }
+            &__headline {
+                @extend %slogan-text;
+            }
+            &__description {
+                @extend %main-text;
+            }
+        }
+    }
+    &__text {
+        @extend %except-text;
+        margin-bottom: 35px;
+    }
+    &__button {
+        @extend %button-style;
+}

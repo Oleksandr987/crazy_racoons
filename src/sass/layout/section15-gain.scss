@@ -1,0 +1,37 @@
+.gain-section {
+    padding-top: 25px;
+    padding-bottom: 48px;
+    &__headline {
+        @extend %headline-text;
+        margin-bottom: 50px;
+    }
+    &__get-list {
+        list-style: none;
+        &__item {
+            display: flex;
+            margin-bottom: 30px;
+            &__number {
+                @extend %headline-text;
+                font-size: 16px;
+                &::after {
+                    @extend %list-style-square-small-blue;
+                }
+            }
+            &__content {
+                &__headline {
+                    @extend %slogan-text;
+                }
+                &__description {
+                    @extend %main-text;
+                }
+            }            
+        }
+    }
+    &__text {
+        @extend %except-text;
+        margin-bottom: 35px;
+    }
+    &__button {
+        @extend %button-style;
+    }
+}

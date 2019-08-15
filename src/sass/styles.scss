@@ -2,4 +2,28 @@
    Import partials below
 */
 @import './base/normalize';
+@import './base/fonts';
+@import './abstracts/variables';
+@import './abstracts/functions';
+@import './abstracts/placeholders';
+@import './components/form';
 @import './components/containers';
+@import './components/form';
+@import './components/logo';
+@import './components/main-menu';
+@import './components/sections-line';
+@import './components/sections-lines';
+@import './layout/forms';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/navigation';
+@import './layout/sections';
+@import './components/buttons';
+@import './components/ordinary-people.scss';
+@import './layout/section13-leading';
+@import './layout/section12-record';
+@import './layout/section14-opportunity';
+@import './layout/section15-gain';
+@import './components/warn-section';
+@import './components/so-many-people.scss';
+@import './components/web-career';

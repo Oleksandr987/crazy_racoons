@@ -2,7 +2,8 @@
   font-family: $main-font;
   font-weight: 400;
   font-size: 13.5px;
-  color: $secondary-color;
+  color: $main-text-color;
+  line-height: 19.5px;
 }
 
 %main-text-bold {
@@ -10,6 +11,7 @@
   font-weight: 700;
   font-size: 13.5px;
   color: $secondary-color;
+  line-height: 19.5px;
 }
 
 //оранжевый текст
@@ -36,6 +38,7 @@
   font-size: 18px;
   color: $secondary-color;
   text-transform: uppercase;
+  line-height: 24px;
 }
 
 %headline-reverse-text {
@@ -54,6 +57,7 @@
   font-size: 13.5px;
   color: $secondary-color;
   text-transform: uppercase;
+  line-height: 19.5px;
 }
 
 %slogan-reverse-text {
@@ -63,6 +67,7 @@
   color: $main-color;
   text-transform: uppercase;
   background-color: $secondary-color;
+  line-height: 19.5px;
 }
 
 %slogan-for-slider-text {
@@ -71,6 +76,7 @@
   font-size: 13.5px;
   color: $main-color;
   text-transform: uppercase;
+  line-height: 19.5px;
 }
 
 %secondary-text {
@@ -78,6 +84,7 @@
   font-weight: 500;
   font-size: 13.5px;
   color: $secondary-color;
+  line-height: 19.5px;
 }
 
 %secondary-reverse-text {
@@ -86,6 +93,7 @@
   font-size: 13.5px;
   color: $main-color;
   background-color: $secondary-color;
+  line-height: 19.5px;
 }
 
 %highlited-text {
@@ -94,6 +102,7 @@
   font-size: 13.5px;
   color: $secondary-color;
   background-color: $text-bg-color;
+  line-height: 19.5px;
 }
 
 %numbers-of-list {
@@ -113,8 +122,65 @@
   font-size: 11px;
   color: $main-color;
   text-transform: uppercase;
+  text-decoration: none;
   background-color: $btn-main-color;
   padding-top: 20px;
   padding-bottom: 20px;
   box-shadow: $btn-box-shadow;
+}
+
+%list-style-square-small-black {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: $secondary-color;
+}
+
+%list-style-square-big-blue {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: $secondary-color;
+}
+
+%list-style-square-small-blue {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: $text-bg-color;
+}
+
+%list-style-square-big-blue {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: $text-bg-color;
+}
+
+%list-style-square-big-orange {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: $btn-main-color;
+}
+
+%dash-small {
+  content: '';
+  display: block;
+  width: 15px;
+  height: 3px;
+  background-color: $secondary-color;
+}
+
+%dash-big {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: $secondary-color;
 }

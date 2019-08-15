@@ -847,6 +847,7 @@ template {
   display: block;
   margin: 0 auto;
   margin-bottom: 45px;
+  width: auto;
 }
 
 .opportunity-section__usually {

@@ -1,0 +1,13 @@
+.section-bonus {
+    padding-top: 25px;
+    padding-bottom: 48px;
+    &__headline {
+        @extend %headline-text;
+        margin-bottom: 50px;
+    }
+    &__description {
+        @extend %secondary-text;
+        &::before {
+            @extend %dash-small
+    }
+}

@@ -1,0 +1,65 @@
+.video-course-section {
+    // padding-top: 40px;
+    // padding-bottom: 35px;
+    text-align: center;
+    &__headline {
+        @extend %headline-text;
+        margin-bottom: 20px;
+    }
+    &__description {
+        @extend %secondary-text;
+        &::before {
+            @extend %dash-small
+        }
+    }
+    &__image {
+        display: block;
+        margin: 35px auto 30px;
+    }
+    &__what-is-list__item {
+    list-style-type: none;
+    text-align: left;
+    }
+    &__what-is-list__item__headline--bg-black{
+        @extend %slogan-reverse-text;
+        margin-bottom: 15px;
+    }
+    &__what-is-list__item__description {
+        @extend %main-text;
+        margin-bottom: 40px;
+    }
+    &__what-you-get-headline {
+        @extend %slogan-text;
+    }
+    &__what-you-get-list {
+        list-style: none;
+        &__item {
+            display: flex;
+            margin-bottom: 30px;
+            &__number--bg-orange {
+                @extend %numbers-of-list;
+            }
+            &-desc {
+                &__headline {
+                    @extend %main-text-bold;
+                    padding-bottom: 15px;
+                }
+                &__description {
+                    @extend %main-text;
+                }
+            }
+
+        }
+        
+    }
+    &__price {
+        display: flex;
+        &__text--bg-blue {
+            @extend %highlited-text;
+
+        }
+    &__number {
+        display: flex;
+    }
+    }
+}

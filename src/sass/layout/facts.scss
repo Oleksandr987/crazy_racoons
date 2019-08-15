@@ -1,0 +1,64 @@
+.facts-title {
+    @extend%headline-text;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.facts-line {
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.facts-subtitle {
+    @extend%main-text;
+    font-weight: 500;
+    text-align: left;
+    margin: 0 0 45px;
+    padding: 0 100px;
+}
+
+.line::before {
+    position: absolute;
+    display: block;
+    content: '\2014';
+    font-size: 20px;
+    font-weight: 700;
+    left: 36%;
+}
+
+.facts-list {
+    list-style-type: square;
+    color: $btn-main-color;
+    margin: 0 0 50px;
+    padding: 0 60 0 0px;
+}
+
+.facts-list__facts-item {
+    font-size: 23px;
+    margin: 0 0 30px;
+}
+
+.facts-item-titul {
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 29px;
+    font-family: $main-font;
+    color: $secondary-color;
+    margin: 0 0 14px;
+}
+
+.facts-item-subtitle {
+    @extend%main-text;
+    display: inline-block;
+    color: $secondary-color;
+    font-weight: 500;
+    background: $text-bg-color;
+    margin: 0 0 16px;
+}
+
+.facts-item-text {
+    @extend%main-text;
+    text-align: left;
+    margin: 0;
+}

@@ -4,6 +4,7 @@
         display: block;
         margin: 0 auto;
         margin-bottom: 45px;
+        width: auto;
     }
     &__usually {
         @extend %except-text;

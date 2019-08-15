@@ -1,0 +1,48 @@
+.many-people {
+  width: 445px;
+  margin: 0 auto;
+  @extend %main-text;
+  margin-bottom: 30px;
+}
+img {
+  display: block;
+  widows: 100%;
+  height: auto;
+}
+.many-people__title {
+  @extend %headline-text;
+  margin-bottom: 10px;
+  padding-right: 190px;
+}
+.many-people__description {
+  margin-bottom: 32px;
+  @extend %main-text-bold;
+  color: $secondary-color;
+  padding-right: 35px;
+}
+.many-people__title,
+.many-people__description {
+  padding-left: 70px;
+  position: relative;
+}
+.many-people__description--line::before {
+  @extend %dash-big;
+  position: absolute;
+  left: 35px;
+  top: 13px;
+}
+.many-people__img {
+  margin-bottom: 15px;
+}
+.many-people__text {
+  padding: 0 35px 0 35px;
+  margin-bottom: 40px;
+}
+.many-people__text--reverse {
+  @extend %slogan-reverse-text;
+  display: inline-block;
+  margin: 0 0 3px 0;
+}
+.many-people__text--bold {
+  @extend %main-text-bold;
+}

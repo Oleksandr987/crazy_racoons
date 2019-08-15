@@ -1,0 +1,96 @@
+.ordinary-people {
+  margin: 0;
+  padding: 0;
+  @extend %main-text;
+  width: 295px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+}
+.ordinary-people__title {
+  @extend %headline-text;
+  margin-bottom: 38px;
+}
+.ordinary-people__description {
+  @extend %main-text-bold;
+}
+.ordinary-people__title,
+.ordinary-people__description {
+  padding-left: 36px;
+  position: relative;
+}
+.ordinary-people__description--reverse {
+  @extend %secondary-reverse-text;
+}
+.ordinary-people__description--line::before {
+  @extend %dash-big;
+  position: absolute;
+  left: 0;
+  top: 13px;
+}
+.ordinary-people__description {
+  margin-bottom: 36px;
+  color: $secondary-color;
+}
+.discussion {
+  position: relative;
+  box-shadow: $form-box-shadow;
+}
+.discussion__photo {
+  width: 56px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.discussion__feedback {
+  margin: 0;
+  font-size: 5px;
+  line-height: 8px;
+  padding: 20px 35px 20px 92px;
+}
+.discussion__name {
+  @extend %slogan-text;
+  font-size: 6px;
+  line-height: 9px;
+}
+.section-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.pagination {
+  margin: 0;
+  padding: 0;
+  padding-left: 25px;
+  display: flex;
+  list-style: none;
+}
+.pagination__item {
+  margin-right: 5px;
+}
+.pagination__link {
+  text-decoration: none;
+  @extend %slogan-text;
+  font-size: 6px;
+}
+.pagination__link--active:hover,
+.pagination__link--active:focus {
+  transition-property: font-size;
+  font-size: 9px;
+  text-decoration: line-through;
+}
+
+.laquo-raquo {
+  display: flex;
+}
+.laquo-raquo__link {
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  text-decoration: none;
+  width: 16px;
+  height: 16px;
+  color: $main-color;
+  background-color: $secondary-color;
+}
+.laquo-raquo__link--prew {
+  margin-right: 1px;
+}
